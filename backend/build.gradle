@@ -32,3 +32,9 @@ dependencies {
     implementation 'com.google.http-client:google-http-client-android:1.23.0'
     compile project(path: ':javajoker')
 }
+
+appengine {
+    run {
+        host = "0.0.0.0"
+    }
+}
