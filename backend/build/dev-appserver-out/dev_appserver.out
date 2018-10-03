@@ -1,0 +1,31 @@
+objc[8969]: Class JavaLaunchHelper is implemented in both /Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/bin/java (0x101d6c4c0) and /Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/libinstrument.dylib (0x103de24e0). One of the two will be used. Which one is undefined.
+Warning: Google App Engine Java 7 runtime is deprecated.
+Warning: See https://cloud.google.com/appengine/docs/deprecations/java7
+Oct 02, 2018 7:09:46 PM com.google.appengine.tools.development.SystemPropertiesManager setSystemProperties
+INFO: Overwriting system property key 'java.util.logging.config.file', value '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/platform/google_appengine/google/appengine/tools/java/config/sdk/logging.properties' with value 'WEB-INF/logging.properties' from '/Users/Sogekingu/AndroidStudioProjects/GrowWithGooglePhase2/Projects/BuildItBigger/FinalProject/backend/build/exploded-backend/WEB-INF/appengine-web.xml'
+Oct 02, 2018 7:09:46 PM com.google.apphosting.utils.jetty.JettyLogger info
+INFO: Logging to JettyLogger(null) via com.google.apphosting.utils.jetty.JettyLogger
+Oct 02, 2018 11:09:46 PM com.google.appengine.tools.development.IsolatedAppClassLoader checkWorkingDirectory
+WARNING: Your working directory, (/Users/Sogekingu/AndroidStudioProjects/GrowWithGooglePhase2/Projects/BuildItBigger/FinalProject/backend) is not equal to your 
+web application root (/Users/Sogekingu/AndroidStudioProjects/GrowWithGooglePhase2/Projects/BuildItBigger/FinalProject/backend/build/exploded-backend)
+You will not be able to access files from your working directory on the production server.
+
+Oct 02, 2018 11:09:46 PM com.google.apphosting.utils.jetty.JettyLogger info
+INFO: jetty-6.1.x
+Oct 02, 2018 11:09:47 PM com.google.apphosting.utils.jetty.JettyLogger info
+INFO: Started SelectChannelConnector@0.0.0.0:8080
+Oct 02, 2018 11:09:47 PM com.google.appengine.tools.development.AbstractModule startup
+INFO: Module instance default is running at http://localhost:8080/
+Oct 02, 2018 11:09:47 PM com.google.appengine.tools.development.AbstractModule startup
+INFO: The admin console is running at http://localhost:8080/_ah/admin
+Oct 02, 2018 7:09:47 PM com.google.appengine.tools.development.DevAppServerImpl doStart
+INFO: Dev App Server is now running
+Oct 02, 2018 7:29:33 PM com.google.appengine.tools.development.JettyContainerService$ScannerListener fileChanged
+INFO: /Users/Sogekingu/AndroidStudioProjects/GrowWithGooglePhase2/Projects/BuildItBigger/FinalProject/backend/build/exploded-backend/WEB-INF/appengine-web.xml updated, reloading the webapp!
+Oct 02, 2018 7:29:33 PM com.google.appengine.tools.development.SystemPropertiesManager setSystemProperties
+INFO: Overwriting system property key 'java.util.logging.config.file', value '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/platform/google_appengine/google/appengine/tools/java/config/sdk/logging.properties' with value 'WEB-INF/logging.properties' from '/Users/Sogekingu/AndroidStudioProjects/GrowWithGooglePhase2/Projects/BuildItBigger/FinalProject/backend/build/exploded-backend/WEB-INF/appengine-web.xml'
+Oct 02, 2018 7:29:33 PM com.google.appengine.tools.development.IsolatedAppClassLoader checkWorkingDirectory
+WARNING: Your working directory, (/Users/Sogekingu/AndroidStudioProjects/GrowWithGooglePhase2/Projects/BuildItBigger/FinalProject/backend) is not equal to your 
+web application root (/Users/Sogekingu/AndroidStudioProjects/GrowWithGooglePhase2/Projects/BuildItBigger/FinalProject/backend/build/exploded-backend)
+You will not be able to access files from your working directory on the production server.
+
