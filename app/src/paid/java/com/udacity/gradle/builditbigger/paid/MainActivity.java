@@ -25,10 +25,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public String StringYes(){
-        return "yes";
-    }
-
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
@@ -53,10 +49,6 @@ public class MainActivity extends AppCompatActivity {
 
     public void tellJoke(View view) {
         new EndpointAsyncTask().execute(this);
-    }
-
-    public int add(int a, int b) {
-        return a + b;
     }
 
     class EndpointAsyncTask extends AsyncTask<Context, Void, String> {
