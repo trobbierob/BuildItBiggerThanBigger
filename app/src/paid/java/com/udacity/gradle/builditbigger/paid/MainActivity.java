@@ -1,4 +1,4 @@
-package com.udacity.gradle.builditbigger;
+package com.udacity.gradle.builditbigger.paid;
 
 import android.content.Context;
 import android.content.Intent;
@@ -12,10 +12,10 @@ import android.view.View;
 import com.example.android.jokeactivity.JokeDisplayActivity;
 import com.google.api.client.extensions.android.http.AndroidHttp;
 import com.google.api.client.extensions.android.json.AndroidJsonFactory;
+import com.udacity.gradle.builditbigger.R;
 import com.udacity.gradle.builditbigger.backend.myApi.MyApi;
 
 import java.io.IOException;
-
 
 public class MainActivity extends AppCompatActivity {
 
