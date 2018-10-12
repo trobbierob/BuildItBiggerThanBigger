@@ -39,10 +39,9 @@ android {
             applicationId "com.udacity.gradle.builditbigger.free"
             versionName "1.0­free"
         }
-
         paid {
-            applicationId "com.udacity.gradle.builditbigger.paid"
             versionName "1.0­paid"
+            applicationId 'com.udacity.gradle.builditbigger.paid'
         }
     }
 
@@ -54,11 +53,11 @@ android {
 }
 
 dependencies {
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
     //implementation 'com.android.support:support-v4:28.0.0'
     endpointsServer project(path: ':backend', configuration: 'endpoints')
     implementation 'com.android.support:appcompat-v7:28.0.0'
-    implementation 'com.google.android.gms:play-services-ads:15.0.1'
+    freeImplementation 'com.google.android.gms:play-services-ads:15.0.1'
     implementation 'com.google.api-client:google-api-client:1.23.0'
     implementation 'com.google.http-client:google-http-client-android:1.23.0'
     implementation 'com.google.code.findbugs:jsr305:3.0.1'
@@ -67,7 +66,6 @@ dependencies {
     //noinspection GradleCompatible
     implementation 'com.android.support:animated-vector-drawable:28.0.0'
     implementation 'com.android.support:support-compat:28.0.0'
-
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
@@ -78,10 +76,9 @@ dependencies {
         exclude group: 'com.android.support', module: 'design'
         exclude group: 'com.android.support', module: 'recyclerview-v7'
     }
-
     testImplementation 'junit:junit:4.12'
-    testImplementation "org.robolectric:robolectric:3.8"
-    testImplementation "org.robolectric:multidex:3.4.2"
-    implementation project(":javajoker")
-    implementation project(":jokeactivity")
+    testImplementation 'org.robolectric:robolectric:3.8'
+    testImplementation 'org.robolectric:multidex:3.4.2'
+    implementation project(':javajoker')
+    implementation project(':jokeactivity')
 }
